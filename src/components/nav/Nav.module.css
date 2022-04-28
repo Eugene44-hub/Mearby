@@ -1,0 +1,7 @@
+@media screen and (max-width:768px) {
+    .nav{
+/* display: none; */
+/* bg-[#014034] */
+background-color:#014034;
+}
+}

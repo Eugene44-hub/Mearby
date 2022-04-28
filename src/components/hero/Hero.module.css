@@ -1,0 +1,61 @@
+.container{
+height: 812px;
+background-image: url(../../assets/images/mobileHero.png);   
+background-repeat: no-repeat;
+background-position: center;
+background-size: 133% 100%;
+}
+
+
+.heroImg{
+    display: none;
+    width: 100%;
+}
+.heroContainer{
+    /* background-color: black; */
+    color: white;
+   
+}
+.connectHead,.connectText,.connectList{
+    padding: 20px;
+
+}
+@media screen and (min-width:600px) {
+    .container{
+    background-image:none;
+    height: auto;
+}
+.connectHead{
+    background-color: none;
+}
+.heroImg{
+    display: block;
+}
+.connectHead{
+    background-color: none;
+}
+.heroContainer{
+    /* background-color: black; */
+    color: black ;
+}
+
+}
+
+@media screen and (min-width:768px) {
+    .connectHead,.connectText,.connectList{
+        padding: 0px;
+    }
+  
+}
+
+
+@media screen and (max-width:600px){
+.connectHead{
+    background-color: #004034;
+}
+
+}
+/* .minorTxt{
+} */
+/* linear-gradient(rgba(0, 64, 52, 1), rgba(0, 57, 64, 0)) */
+/* linear-gradient(rgba(0, 64, 52, 1),rgba(0, 64, 52, 1)) */
