@@ -1,0 +1,14 @@
+    .light {
+        background-color: "#00DCBA";
+        color: #004034;
+        width: "205px";
+        font-size: 1rem;
+    }
+    
+    .dark {}
+    
+    .light,
+    .dark {
+        height: 70px;
+        border-radius: 50px;
+    }

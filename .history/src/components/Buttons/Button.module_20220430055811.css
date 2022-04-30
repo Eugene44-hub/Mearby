@@ -1,0 +1,8 @@
+    .light {
+        background-color: "#00DCBA";
+        color: #004034;
+        width: "205px";
+    }
+    
+    .light,
+    .dark {}
