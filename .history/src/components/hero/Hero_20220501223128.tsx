@@ -4,15 +4,12 @@ import checked from '../../assets/images/checked.png';
 import heroImg from '../../assets/images/heroImg.png';
 import send from '../../assets/images/send.svg';
 import nearby from '../../assets/images/nearbyDark.svg';
-import lines from "../../assets/images/lines/greyLine.svg"
 
 const Hero = () => {
 	const minorText: string[] = [ 'affordable', 'gurantee', 'quick', 'easy' ];
 	return (
-		<section className=" md:pl-[61px] relative">
-			  {  
-      [10,20,30,40,50,60,70,80,90,100].map((item,index:number)=>(<img key={index} src={lines} style={{left:`${item}%`}} className={`absolute  hidden md:block z-[-1] `} alt="lines" />))}
-			<div className='container'>
+		<section className="container md:pl-[61px] relative">
+			div
 			<div className={`${styles.container} md:flex justify-between`}>
 				<div className={`${styles.heroContainer} mb-[3rem] flex flex-wrap md:w-[50%]`}>
 					<div className="md:flex w-[20%] hidden mt-[62px] items-center">
@@ -52,8 +49,6 @@ const Hero = () => {
 					<img src={heroImg} className={styles.heroImg} alt="girl" />
 				</div>
 			</div>
-			</div>
-			
 		</section>
 	);
 };

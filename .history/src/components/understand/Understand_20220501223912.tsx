@@ -7,7 +7,7 @@ import styles from "./Understand.module.css"
 const Understand = () => {
 
   return (
-    <div className={`bg-[#004034] ${styles.container} relative border-y-4 border-[#00836A] mt-[8.75rem]`}>
+    <div className={`bg-[#004034] ${styles.container} relative border-y-4 border-[#00836A] mt-[15rem]`}>
     {  
       [20,40,60,80].map((item,index:number)=>(<img key={index} src={lines} style={{left:`${item}%`}} className={`absolute  hidden md:block h-full`} alt="lines" />))}
 

@@ -11,7 +11,7 @@ const Hero = () => {
 	return (
 		<section className=" md:pl-[61px] relative">
 			  {  
-      [10,20,30,40,50,60,70,80,90,100].map((item,index:number)=>(<img key={index} src={lines} style={{left:`${item}%`}} className={`absolute  hidden md:block z-[-1] `} alt="lines" />))}
+      [20,40,60,80].map((item,index:number)=>(<img key={index} src={lines} style={{left:`${item}%`}} className={`absolute top-[100%] hidden md:block h-full`} alt="lines" />))}
 			<div className='container'>
 			<div className={`${styles.container} md:flex justify-between`}>
 				<div className={`${styles.heroContainer} mb-[3rem] flex flex-wrap md:w-[50%]`}>
