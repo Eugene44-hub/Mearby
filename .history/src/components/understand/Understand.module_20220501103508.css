@@ -1,0 +1,5 @@
+.container {
+    background-image: url(../../assets/images/lines/darkGreen.svg);
+    background-size: cover;
+    background-position: center, right
+}
