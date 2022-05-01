@@ -49,7 +49,7 @@ const Provide = () => {
   ]
 
   return (
-    <div className='mt-[8.25rem] bg-[#004034] z-[-2] relative pt-[4.313rem]'>
+    <div className='mt-[8.25rem] bg-[#004034]  relative pt-[4.313rem]'>
           {  
       [10,30,50,70,90].map((item:number,index:number)=>(<img key={index}  src={lines} className={`hidden z-[-1] lg:block absolute top-0 h-full`} style={{left:`${item}%`}} alt="lines" />))
       }
