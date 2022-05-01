@@ -45,7 +45,7 @@ const Hero = () => {
 					</div>
 				</div>
 				<div className="md:w-[50%]">
-					<img src={heroImg} className={styles.heroImg} alt="girl" />
+					<img src={heroImg} className={styles.heroImg} alt="" />
 				</div>
 			</div>
 		</section>

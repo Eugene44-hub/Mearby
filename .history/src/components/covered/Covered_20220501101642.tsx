@@ -59,7 +59,7 @@ const covered:Cover=[
 
 
       </div>
-<div className='flex justify-center '>
+<div className='flex justify-center mb-[5rem]'>
   <WaitDark/>
 </div>
       </div>

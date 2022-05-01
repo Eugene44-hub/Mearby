@@ -46,7 +46,7 @@ const Provide = () => {
   ]
 
   return (
-    <section className='mt-[8.25rem] bg-[#004034] pt-[4.313rem]'>
+    <section className='mt-[8.25rem] bg-[#004034]'>
       <div className='container md:pl-[61px] md:pr-[57px] px-[20px]'>
         <div className=''>
           <div className='text-center'>

@@ -42,7 +42,7 @@ const covered:Cover=[
 
 
   return (
-    <section className='pt-[12.688rem]'>
+    <section className=''>
       <div className='container md:pl-[61px] md:pr-[57px]'>
       <div className='p-[20px]'>
       <div className='text-center'>
@@ -59,7 +59,7 @@ const covered:Cover=[
 
 
       </div>
-<div className='flex justify-center '>
+<div className='flex justify-center mb-[5rem]'>
   <WaitDark/>
 </div>
       </div>

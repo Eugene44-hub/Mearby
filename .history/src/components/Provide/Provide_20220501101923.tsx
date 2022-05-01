@@ -46,9 +46,9 @@ const Provide = () => {
   ]
 
   return (
-    <section className='mt-[8.25rem] bg-[#004034] pt-[4.313rem]'>
-      <div className='container md:pl-[61px] md:pr-[57px] px-[20px]'>
-        <div className=''>
+    <section className='pt-[8.25rem] bg-[#004034]'>
+      <div className='container md:pl-[61px] md:pr-[57px]'>
+        <div className='p-[20px]'>
           <div className='text-center'>
             <h2 className='text-white text-[1.5rem]'>And if you got service to provide</h2>
           </div>

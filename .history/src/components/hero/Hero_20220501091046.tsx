@@ -29,7 +29,7 @@ const Hero = () => {
 
 					<ul className={`${styles.connectList} mt-5 flex justify-between `}>
 						{minorText.map((item, index) => (
-							<li key={index} className="flex items-center capitalize mr-2">
+							<li key={index} className="flex items-center capitalize ">
 								{item} <img src={checked} className="w-[18px] ml-2" alt="checked" />
 							</li>
 						))}
@@ -45,7 +45,7 @@ const Hero = () => {
 					</div>
 				</div>
 				<div className="md:w-[50%]">
-					<img src={heroImg} className={styles.heroImg} alt="girl" />
+					<img src={heroImg} className={styles.heroImg} alt="" />
 				</div>
 			</div>
 		</section>
