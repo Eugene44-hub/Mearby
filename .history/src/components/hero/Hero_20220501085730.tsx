@@ -20,14 +20,14 @@ const Hero = () => {
 						<img src={nearby} alt="send" />
 					</div>
 
-					<div className="m-auto">
+					<div className="mx-auto">
 						<h2 className={` ${styles.connectHead} flex items-end md:h-[95.5px]`}>Connecting You</h2>
 						<p className={`text-[2rem] ${styles.connectText}`}>
 							Getting a Professional service provider for your immediate needs Has never been easier!
 						</p>
 					</div>
 
-					<ul className={`${styles.connectList} mt-5 flex justify-between `}>
+					<ul className={`${styles.connectList}  flex justify-between `}>
 						{minorText.map((item, index) => (
 							<li key={index} className="flex items-center capitalize mr-2">
 								{item} <img src={checked} className="w-[18px] ml-2" alt="checked" />
@@ -35,8 +35,8 @@ const Hero = () => {
 						))}
 					</ul>
 
-					<div className="w-[100%] md:pt-[53px] mt-5 flex md:px-0 p-5">
-						<button className="bg-[#004639] font-bold border-white border w-[172px] h-[51px] text-white mr-5 rounded-[50px]">
+					<div className="w-[100%] md:pt-[53px] flex md:px-0 p-5">
+						<button className="bg-[#004639] font-bold w-[172px] h-[51px] text-white mr-5 rounded-[50px]">
 							Join the Waitlist
 						</button>
 						<button className="bg-[#C1F2EB] font-bold w-[129px] h-[51px] rounded-[50px] text-[#004034] border border-[#004034] capitalize">

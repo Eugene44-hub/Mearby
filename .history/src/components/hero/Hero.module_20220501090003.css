@@ -19,11 +19,7 @@
 .connectHead,
 .connectText,
 .connectList {
-    padding: 0 20px;
-}
-
-.connectHead {
-    height: 60px;
+    padding: 20px;
 }
 
 @media screen and (min-width:600px) {
