@@ -1,0 +1,6 @@
+.phone {
+    background-image: url(../../assets/images/phonemap.svg);
+    background-position-x: right;
+    background-size: contain;
+    background-repeatnone
+}
