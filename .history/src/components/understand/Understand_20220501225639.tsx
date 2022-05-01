@@ -5,7 +5,7 @@ import lines from "../../assets/images/lines/darkGreen.svg"
 import mobilelines from "../../assets/images/lines/mobileDarkGreen.svg"
 import arrowDown from "../../assets/images/lines/arrowDown.svg"
 import styles from "./Understand.module.css"
-
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 const Understand = () => {
   return (

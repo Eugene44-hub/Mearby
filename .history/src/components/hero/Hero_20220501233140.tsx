@@ -41,12 +41,10 @@ const Hero = () => {
 					</ul>
 
 					<div className="w-[100%] md:pt-[53px] mt-5 flex md:px-0 p-5">
-					<Link activeClass="active" to="form" onClick={()=>scroll.scrollToBottom()} spy={true} smooth={true} offset={1070} duration={2000}>
-					<button className="bg-[#004639] font-bold border-white border w-[172px] h-[51px] text-white mr-5 rounded-[50px]">
+
+						<button className="bg-[#004639] font-bold border-white border w-[172px] h-[51px] text-white mr-5 rounded-[50px]">
 							Join the Waitlist
 						</button>
-					</Link>
-						
 						<button className="bg-[#C1F2EB] font-bold w-[129px] h-[51px] rounded-[50px] text-[#004034] border border-[#004034] capitalize">
 							read more
 						</button>

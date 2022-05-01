@@ -5,9 +5,10 @@ import lines from "../../assets/images/lines/darkGreen.svg"
 import mobilelines from "../../assets/images/lines/mobileDarkGreen.svg"
 import arrowDown from "../../assets/images/lines/arrowDown.svg"
 import styles from "./Understand.module.css"
-
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 const Understand = () => {
+<Link activeClass="active" to="top" spy={true} smooth={true} offset={-6000} duration={2000}></Link>
   return (
     <div className={`bg-[#004034] ${styles.container} relative border-y-4 border-[#00836A] mt-[8rem]`}>
     {  

@@ -5,9 +5,8 @@ import lines from "../../assets/images/lines/darkGreen.svg"
 import mobilelines from "../../assets/images/lines/mobileDarkGreen.svg"
 import arrowDown from "../../assets/images/lines/arrowDown.svg"
 import styles from "./Understand.module.css"
-
-
 const Understand = () => {
+
   return (
     <div className={`bg-[#004034] ${styles.container} relative border-y-4 border-[#00836A] mt-[8rem]`}>
     {  
@@ -29,7 +28,7 @@ const Understand = () => {
               We understand you get stranded sometimes, Mostly in the middle of occasions!!!
             </p>
             <p className='mt-3 text-[1.5rem] text-[#01AB8B] '>
-              Yeah, we experience that too and it sucks and that’s why <img src={arrowDown} className="inline" alt="" /> </p>
+              Yeah, we experience that too and it sucks and that’s why <img src={arrowDown} className alt="" /> </p>
           </div>
 
           <div className='pt-[3rem]'>

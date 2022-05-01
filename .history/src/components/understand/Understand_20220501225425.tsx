@@ -5,9 +5,8 @@ import lines from "../../assets/images/lines/darkGreen.svg"
 import mobilelines from "../../assets/images/lines/mobileDarkGreen.svg"
 import arrowDown from "../../assets/images/lines/arrowDown.svg"
 import styles from "./Understand.module.css"
-
-
 const Understand = () => {
+
   return (
     <div className={`bg-[#004034] ${styles.container} relative border-y-4 border-[#00836A] mt-[8rem]`}>
     {  

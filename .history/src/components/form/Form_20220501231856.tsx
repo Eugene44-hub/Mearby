@@ -17,7 +17,7 @@ const Form = () => {
         <p className='text-center font-bold mt-[2rem] text-[#01AB8B]'>Be part of the network of interconnectivity </p>
         <h2 className='text-center md:text-[2rem] text-[1.5rem] lg:w-[50%] m-auto'> Join the waiting list now to get early access to all the good stuff completely free</h2>
       </div>
-      <form title='form' className='mt-[5rem] lg:w-[344px] md:w-[50%] m-auto' action="#">
+      <form title='' className='mt-[5rem] lg:w-[344px] md:w-[50%] m-auto' action="#">
 
         <div className='mb-5'>
           <div className='mb-5'>
