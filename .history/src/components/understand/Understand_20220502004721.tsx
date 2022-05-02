@@ -5,9 +5,7 @@ import lines from "../../assets/images/lines/darkGreen.svg"
 import mobilelines from "../../assets/images/lines/mobileDarkGreen.svg"
 import arrowDown from "../../assets/images/lines/arrowDown.svg"
 import styles from "./Understand.module.css"
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-AOS.init();
+
 
 
 const Understand = () => {

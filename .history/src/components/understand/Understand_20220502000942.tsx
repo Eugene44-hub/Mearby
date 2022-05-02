@@ -5,14 +5,12 @@ import lines from "../../assets/images/lines/darkGreen.svg"
 import mobilelines from "../../assets/images/lines/mobileDarkGreen.svg"
 import arrowDown from "../../assets/images/lines/arrowDown.svg"
 import styles from "./Understand.module.css"
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-AOS.init();
+import 'animate.css';
 
 
 const Understand = () => {
   return (
-    <div data-aos="fade-up" className={`bg-[#004034]  ${styles.container} relative border-y-4 border-[#00836A] mt-[8rem]`}>
+    <div className={`bg-[#004034] animate__animated  animate__fadeIn ${styles.container} relative border-y-4 border-[#00836A] mt-[8rem]`}>
     {  
       [20,40,60,80].map((item,index:number)=>(<img key={index} src={lines} style={{left:`${item}%`}} className={`absolute  hidden md:block h-full`} alt="lines" />))}
 

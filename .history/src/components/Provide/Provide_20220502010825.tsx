@@ -52,7 +52,7 @@ const Provide = () => {
   ]
 
   return (
-    <div className='mt-[8.25rem] bg-[#004034] z-[-2] relative pt-[4.313rem]'>
+    <div data-aos="fade-up-left" className='mt-[8.25rem] bg-[#004034] z-[-2] relative pt-[4.313rem]'>
           {  
       [10,30,50,70,90].map((item:number,index:number)=>(<img key={index}  src={lines} className={`hidden z-[-1] lg:block absolute top-0 h-full`} style={{left:`${item}%`}} alt="lines" />))
       }
@@ -61,12 +61,12 @@ const Provide = () => {
       }
 
 
-      <div  className='container md:pl-[61px] md:pr-[57px] px-[20px]'>
+      <div className='container md:pl-[61px] md:pr-[57px] px-[20px]'>
         <div className=''>
           <div className='text-center'>
             <h2 className='text-white text-[1.5rem] z-50'>And if you got service to provide</h2>
           </div>
-          <div data-aos="fade-up-left" className='mt-[5rem] flex flex-wrap sm:gap-3 lg:justify-between justify-center'>
+          <div className='mt-[5rem] flex flex-wrap sm:gap-3 lg:justify-between justify-center'>
             {covered.map((item, index) => (
               <ImageCard border={true} key={index} img={item.img} text={item.text} />
 

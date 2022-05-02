@@ -6,7 +6,6 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Form = () => {
-  AOS.init()
   return (
     <section data-aos="fade-down" className='mt-[10rem] p-[20px] '>
       <div className='container md:pl-[61px] md:pr-[57px]'>

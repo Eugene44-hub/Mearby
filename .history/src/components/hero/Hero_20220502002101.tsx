@@ -6,15 +6,11 @@ import send from '../../assets/images/send.svg';
 import nearby from '../../assets/images/nearbyDark.svg';
 import lines from "../../assets/images/lines/greyLine.svg"
 import { Link, animateScroll as scroll } from 'react-scroll';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-AOS.init();
 
 const Hero = () => {
-
 	const minorText: string[] = [ 'affordable', 'gurantee', 'quick', 'easy' ];
 	return (
-		<section data-aos="flip-left" className=" md:pl-[61px] relative ">
+		<section className=" md:pl-[61px] relative ">
 			  {  
       [10,20,30,40,50,60,70,80,90,100].map((item,index:number)=>(<img key={index} src={lines} style={{left:`${item}%`}} className={`absolute  hidden md:block z-[-1] `} alt="lines" />))}
 			<div className='container'>

@@ -61,7 +61,7 @@ const Provide = () => {
       }
 
 
-      <div  className='container md:pl-[61px] md:pr-[57px] px-[20px]'>
+      <div   className='container md:pl-[61px] md:pr-[57px] px-[20px]'>
         <div className=''>
           <div className='text-center'>
             <h2 className='text-white text-[1.5rem] z-50'>And if you got service to provide</h2>

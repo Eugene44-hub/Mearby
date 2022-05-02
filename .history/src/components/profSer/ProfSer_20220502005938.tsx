@@ -6,12 +6,11 @@ import phone from "../../assets/images/phonemap.svg";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
-
 const ProfSer = () => {
   const minorText: string[] = ['affordable', 'gurantee', 'quick', 'easy'];
 
   return (
-    <div data-aos="zoom-in-right" className='container md:pl-[61px] md:pr-[57px] md:mt-[13.438rem] mt-[2.375rem] '>
+    <div className='container md:pl-[61px] md:pr-[57px] md:mt-[13.438rem] mt-[2.375rem] '>
       <div className='flex'>
         <div className='p-[20px] md:p-[0]  '>
           <p className='text-[2rem]'>
