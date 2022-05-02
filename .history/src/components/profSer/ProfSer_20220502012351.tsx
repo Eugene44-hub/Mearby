@@ -45,7 +45,7 @@ const ProfSer = () => {
       </div>
 
 
-      <div data-aos="zoom-in-down" className={`${styles.phone} md:hidden mt-[5rem] w-[781px] h-[451px]`}>
+      <div data-aos="zoom-in-down className={`${styles.phone} md:hidden mt-[5rem] w-[781px] h-[451px]`}>
 
       </div>
     </div>
