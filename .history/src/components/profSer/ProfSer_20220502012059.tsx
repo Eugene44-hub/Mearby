@@ -19,7 +19,7 @@ const ProfSer = () => {
 
           </p>
           <p data-aos="zoom-in-right" className='text-[1.25rem] text-[#00836A] pt-[0.813rem]'>Quicker and Easier than you can ever imagine</p>
-          <ul data-aos="zoom-in-right" className={`lg:w-[70%] flex justify-between `}>
+          <ul className={`lg:w-[70%] flex justify-between `}>
             {minorText.map((item, index) => (
               <li key={index} className="flex items-center capitalize mr-2 font-bold">
                 {item} <img src={checked} className="w-[18px] ml-2 mr-5" alt="checked" />
@@ -27,7 +27,7 @@ const ProfSer = () => {
             ))}
           </ul>
 
-          <div data-aos="zoom-in-right" className='mt-[4.438rem]'>
+          <div className='mt-[4.438rem]'>
             <WaitDark />
 
           </div>
@@ -35,7 +35,7 @@ const ProfSer = () => {
 
           {/* <img src={phone} className="translate-x-[-40%] float-right w-[781px] h-[451px]" alt="" /> */}
         </div>
-        <img src={phone} data-aos="zoom-in-down" className="w-[50%] h-[451px] hidden md:block float-right" alt="" />
+        <img src={phone} className="w-[50%] h-[451px] hidden md:block float-right" alt="" />
 
         {/* <div className='flex-1 hidden lg:block m-auto'>
     <img src={phone} className=" w-100%  " alt="" />

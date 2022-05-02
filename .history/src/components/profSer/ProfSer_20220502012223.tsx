@@ -35,7 +35,7 @@ const ProfSer = () => {
 
           {/* <img src={phone} className="translate-x-[-40%] float-right w-[781px] h-[451px]" alt="" /> */}
         </div>
-        <img src={phone} data-aos="zoom-in-down" className="w-[50%] h-[451px] hidden md:block float-right" alt="" />
+        <img src={phone} data-aos="zoom-in-right" className="w-[50%] h-[451px] hidden md:block float-right" alt="" />
 
         {/* <div className='flex-1 hidden lg:block m-auto'>
     <img src={phone} className=" w-100%  " alt="" />
