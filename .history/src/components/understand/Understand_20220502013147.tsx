@@ -12,7 +12,7 @@ AOS.init();
 
 const Understand = () => {
   return (
-    <div data-aos="fade-up" className={`bg-[#004034]  ${styles.container} relative border-y-4 border-[#00836A] sm:mt-[8rem] mt-[15rem]`}>
+    <div data-aos="fade-up" className={`bg-[#004034]  ${styles.container} relative border-y-4 border-[#00836A] sm:mt-[8rem]`}>
     {  
       [20,40,60,80].map((item,index:number)=>(<img key={index} src={lines} style={{left:`${item}%`}} className={`absolute  hidden md:block h-full`} alt="lines" />))}
 
