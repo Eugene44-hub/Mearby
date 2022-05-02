@@ -56,7 +56,7 @@ const Hero = () => {
 						</button>
 					</div>
 				</div>
-				<div data-aos="zoom-out-down"  className="md:w-[50%]">
+				<div data-aos="zoom-in"  className="md:w-[50%]">
 					<img src={heroImg} className={styles.heroImg} alt="girl" />
 				</div>
 			</div>
