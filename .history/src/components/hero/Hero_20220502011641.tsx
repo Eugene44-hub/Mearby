@@ -14,7 +14,7 @@ const Hero = () => {
 
 	const minorText: string[] = [ 'affordable', 'gurantee', 'quick', 'easy' ];
 	return (
-		<section data-aos="zoom-in" className=" md:pl-[61px] relative ">
+		<section data-aos="zoom" className=" md:pl-[61px] relative ">
 			  {  
       [10,20,30,40,50,60,70,80,90,100].map((item,index:number)=>(<img key={index} src={lines} style={{left:`${item}%`}} className={`absolute  hidden md:block z-[-1] `} alt="lines" />))}
 			<div className='container'>
